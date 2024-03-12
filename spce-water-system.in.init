@@ -1,0 +1,7 @@
+units real                          # angstroms, kCal/mole, Dalton
+atom_style full                     # select column format for At
+pair_style lj/cut/coul/long 10.35   # params needed: epsilon sigma
+bond_style harmonic                 # parameters needed: k_bond, 
+angle_style harmonic                # parameters needed: k_theta
+kspace_style ewald 0.0001           # long-range electrostatics 
+pair_modify tail yes

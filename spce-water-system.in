@@ -1,0 +1,15 @@
+
+
+# ----------------- Init Section -----------------
+
+include "spce-water-system.in.init"
+
+
+# ----------------- Atom Definition Section -----------------
+
+read_data "spce-water-system.data"
+
+# ----------------- Settings Section -----------------
+
+include "spce-water-system.in.settings"
+
